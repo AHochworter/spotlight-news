@@ -24,6 +24,18 @@
   padding: 10px;
 }
 
+.card-container:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  filter: brightness(110%);
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.card-container:hover .title {
+  text-decoration: underline #808080;
+}
+
 .title {
   display: flex;
   flex-direction: column;
