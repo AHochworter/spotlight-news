@@ -9,13 +9,16 @@ function Articles({ articles }) {
       article.source && article.source.name
         ? article.source.name
         : 'Unknown Source';
+
+    const fullDescription = article.description || 'No Write Up Provided';
+
     return (
       <Card
-        key={article.source.name}
+        key={sourceName}
         sourceName={sourceName}
         title={article.title}
-        description={article.description}
-        image={article.urlToImage}
+        description={fullDescription}
+        urlToImage={article.urlToImage}
       />
     );
   });
