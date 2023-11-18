@@ -1,12 +1,31 @@
 import './Card.css';
 import PropTypes from 'prop-types';
 
-function Card() {
+function Card({ sourceName, title, description, urlToImage }) {
   return (
     <div className="card-container">
-      <h2>ARTICLE CARDS!</h2>
+      <h2 className="title">{title}</h2>
+      <div className="card">
+        <div className="card-left">
+          <p className="source-name">{sourceName}</p>
+          <p className="description">{description}</p>
+        </div>
+        <div className="image-container-main">
+          <img
+            src={urlToImage}
+            alt="topic image"
+            className="article-card-img"
+          />
+        </div>
+      </div>
     </div>
   );
 }
 
 export default Card;
+
+Card.propTypes = {
+  id: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string,
+};
