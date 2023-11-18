@@ -112,7 +112,7 @@ function App() {
           />
           <Route
             path="/article/:title"
-            element={<SelectedArticleContainer />}
+            element={<SelectedArticleContainer articles={articles} />}
           />
           <Route
             path="*"
