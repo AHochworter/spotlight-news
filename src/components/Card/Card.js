@@ -13,7 +13,7 @@ function Card({ sourceName, title, description, urlToImage }) {
         <div className="image-container-main">
           <img
             src={urlToImage}
-            alt="topic image"
+            alt="article topic"
             className="article-card-img"
           />
         </div>
@@ -25,7 +25,6 @@ function Card({ sourceName, title, description, urlToImage }) {
 export default Card;
 
 Card.propTypes = {
-  id: PropTypes.string,
-  name: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   image: PropTypes.string,
 };
