@@ -1,12 +1,26 @@
 import './SelectedArticleCard.css';
 
-function SelectedArticleCard({ title, content }) {
+function SelectedArticleCard({
+  title,
+  description,
+  urlToImage,
+  publishedAt,
+  url,
+}) {
   return (
     <div className="selected-article-card">
-      <h2>SELECTED ARTICLE DETAILS</h2>
       <div className="article-left">
         <h2 className="selected-article-title">{title}</h2>
-        <p className="content">{content}</p>
+        <p className="description">{description}</p>
+      </div>
+      <div className="image-container-selected">
+        <img
+          src={urlToImage}
+          alt="selected article topic"
+          className="selected-card-img"
+        />
+        <p className="published-at">{publishedAt}</p>
+        <p className="link-to-article">{url}</p>
       </div>
     </div>
   );

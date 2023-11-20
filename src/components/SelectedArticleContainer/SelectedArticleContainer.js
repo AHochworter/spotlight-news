@@ -10,18 +10,26 @@ function SelectedArticleContainer({ articles }) {
   const { title } = useParams();
 
   useEffect(() => {
-    try {
-      const foundArticle = articles.find(article => article.title === title);
+    // Using a separate function to handle article finding logic
+    const findArticle = async () => {
+      try {
+        const foundArticle = articles.find(article => article.title === title);
 
-      if (foundArticle) {
-        setSelectedArticle(foundArticle);
-      } else {
-        throw new Error('Article not found');
+        if (foundArticle) {
+          setSelectedArticle(foundArticle);
+        } else {
+          throw new Error('Article not found');
+        }
+      } catch (error) {
+        // Set the error message instead of the error object
+        setSelectedArticleError(error.message);
       }
-    } catch (error) {
-      setSelectedArticleError(error);
-    }
+    };
+
+    // Call the findArticle function
+    findArticle();
   }, [title, articles]);
+
   return (
     <div className="selected-article-container">
       {selectedArticleError ? (
@@ -32,7 +40,10 @@ function SelectedArticleContainer({ articles }) {
       ) : selectedArticle ? (
         <SelectedArticleCard
           title={selectedArticle.title}
-          content={selectedArticle.content}
+          description={selectedArticle.description}
+          urlToImage={selectedArticle.urlToImage}
+          publishedAt={selectedArticle.publishedAt}
+          url={selectedArticle.url}
         />
       ) : (
         <p>Loading...</p>

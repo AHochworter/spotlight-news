@@ -40,7 +40,7 @@ function Articles({ articles }) {
 
   return (
     <div className="articles-container">
-      <div className="filter-container">
+      <div className="search-bar">
         <Form search={search} onSearchChange={handleSearchChange} />
       </div>
       <div className="article-cards">{articleCards}</div>
