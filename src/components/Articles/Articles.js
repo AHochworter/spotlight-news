@@ -1,9 +1,21 @@
+import { useState } from 'react';
 import './Articles.css';
 import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
+import Form from '../Form/Form';
 
 function Articles({ articles }) {
-  const articleCards = articles.map(article => {
+  const [search, setSearch] = useState('');
+
+  const handleSearchChange = event => {
+    setSearch(event.target.value);
+  };
+
+  const filteredArticles = articles.filter(article =>
+    article.title.toLowerCase().includes(search.toLowerCase())
+  );
+
+  const articleCards = filteredArticles.map(article => {
     const sourceName =
       article.source && article.source.name
         ? article.source.name
@@ -26,7 +38,14 @@ function Articles({ articles }) {
     );
   });
 
-  return <div className="articles">{articleCards}</div>;
+  return (
+    <div className="articles-container">
+      <div className="filter-container">
+        <Form search={search} onSearchChange={handleSearchChange} />
+      </div>
+      <div className="article-cards">{articleCards}</div>
+    </div>
+  );
 }
 
 export default Articles;

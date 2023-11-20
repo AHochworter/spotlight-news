@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function Form({ search, onSearchChange }) {
   return (
-    <div className="filters">
+    <div className="search-form">
       <div className="search-container">
         <label className="search-by" htmlFor="search-by">
           Search:
@@ -12,7 +12,7 @@ function Form({ search, onSearchChange }) {
         <input
           className="search-input"
           type="text"
-          placeholder="Search characters..."
+          placeholder="SEARCH..."
           value={search}
           onChange={onSearchChange}
         />
