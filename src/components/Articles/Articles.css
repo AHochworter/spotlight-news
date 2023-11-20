@@ -5,3 +5,10 @@
   grid-gap: 1rem;
   margin: 20px 20px 10px 20px;
 }
+
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: inherit;
+}

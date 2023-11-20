@@ -13,7 +13,13 @@ function App() {
 
   useEffect(() => {
     getArticles()
-      .then(data => setArticles([...articles, ...data.articles]))
+      .then(data => {
+        const articlesWithImage = data.articles.filter(
+          article => article.urlToImage
+        );
+        setArticles(articlesWithImage);
+      })
+
       .catch(error => {
         setError('Error fetching articles. Please try again later.');
       });
