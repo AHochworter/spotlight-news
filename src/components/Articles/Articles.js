@@ -7,8 +7,8 @@ import Form from '../Form/Form';
 function Articles({ articles }) {
   const [search, setSearch] = useState('');
 
-  const handleSearchChange = event => {
-    setSearch(event.target.value);
+  const handleSearchChange = newSearch => {
+    setSearch(newSearch);
   };
 
   const filteredArticles = articles.filter(article =>
