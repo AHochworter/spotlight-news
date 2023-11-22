@@ -1,6 +1,16 @@
-.articles-containter {
-  display: block;
-  align-items: center;
+.search-container {
+  background-color: blue;
+}
+.search-bar {
+  background-color: aqua;
+}
+
+.article-cards {
+  background-color: whitesmoke;
+  grid-area: articles-container;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
   margin: 20px 20px 10px 20px;
 }
 
