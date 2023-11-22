@@ -22,15 +22,19 @@
   flex-direction: column;
   justify-content: center;
   height: 90%;
+  padding: 1rem;
 }
 
 .selected-card-img {
-  height: 85%;
+  height: 60%;
+  width: 100%;
 }
 
 .title-wrapper {
   display: flex;
+  width: 60%;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
 }
