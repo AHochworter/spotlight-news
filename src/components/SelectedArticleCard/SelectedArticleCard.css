@@ -1,0 +1,51 @@
+.selected-article-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+  padding: 1rem;
+}
+
+.selected-article {
+  background-color: whitesmoke;
+
+  display: flex;
+  height: 80%;
+  width: 90%;
+  padding: 1rem;
+}
+
+.image-container-selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
+
+.selected-card-img {
+  height: 85%;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.selected-card-details {
+  /* background-color: antiquewhite; */
+  width: 90%;
+  height: auto;
+}
+
+.published-at {
+  color: white;
+}
+
+.selected-card-details .link-to-full-article {
+  color: white;
+  text-decoration: underline;
+}

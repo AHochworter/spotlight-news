@@ -29,6 +29,7 @@ function Articles({ articles }) {
         className="article-link"
       >
         <Card
+          className="card-details"
           sourceName={sourceName}
           title={article.title}
           description={fullDescription}
@@ -40,8 +41,12 @@ function Articles({ articles }) {
 
   return (
     <div className="articles-container">
-      <div className="filter-container">
-        <Form search={search} onSearchChange={handleSearchChange} />
+      <div className="search-container">
+        <Form
+          className="search-bar"
+          search={search}
+          onSearchChange={handleSearchChange}
+        />
       </div>
       <div className="article-cards">{articleCards}</div>
     </div>

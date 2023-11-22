@@ -3,6 +3,7 @@ import { getArticles } from '../../apiCalls';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import Articles from '../Articles/Articles';
 import SelectedArticleContainer from '../SelectedArticleContainer/SelectedArticleContainer';
 import ErrorComponent from '../ErrorComponent/ErrorComponent';
@@ -31,6 +32,7 @@ function App() {
       {error ? (
         <div className="app-error-container">
           <ErrorComponent
+            className="error-component"
             error={error}
             message="Apologies, we're having trouble loading the page. Please try again later."
           />
@@ -56,6 +58,7 @@ function App() {
           />
         </Routes>
       )}
+      <Footer className="footer" />
     </div>
   );
 }
