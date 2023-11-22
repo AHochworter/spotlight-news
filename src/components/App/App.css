@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100vw;
   grid-template-columns: 1fr;
-  grid-template-rows: 5% auto 5%; /* Changed the middle row to auto */
+  grid-template-rows: 10% auto 10%; /* Changed the middle row to auto */
   grid-template-areas:
     'header'
     'articles-container'
