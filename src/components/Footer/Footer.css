@@ -4,7 +4,6 @@
   font-size: 1rem;
   color: #ffffff;
   background: black;
-  z-index: 1;
 }
 
 .title-block {
@@ -20,12 +19,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.footer-logo {
-  height: 30px;
-  width: 30px;
-  margin-right: 4px;
 }
 
 .subtitle {
