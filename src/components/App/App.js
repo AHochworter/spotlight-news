@@ -45,7 +45,12 @@ function App() {
           />
           <Route
             path="/article/:title"
-            element={<SelectedArticleContainer articles={articles} />}
+            element={
+              <SelectedArticleContainer
+                className="selected-article"
+                articles={articles}
+              />
+            }
           />
           <Route
             path="*"

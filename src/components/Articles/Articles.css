@@ -1,27 +1,19 @@
-.search-container {
-  display: flex;
-  align-items: center;
-  background-color: #333;
-  margin-left: 2.5rem;
-  height: 3rem;
-  width: 30%;
-}
-.search-bar {
-  background-color: aqua;
-}
-
-.search-by {
-  color: white;
-  padding-right: 0.5rem;
+.articles-container {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url('../../assets/typewriter-unsplash.jpg');
+  background-size: contain;
+  background-position: center;
 }
 
 .article-cards {
-  background-color: whitesmoke;
   grid-area: articles-container;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
-  margin: 40px;
+  grid-gap: 3rem;
+  margin: 30px;
 }
 
 a:link,

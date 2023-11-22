@@ -1,0 +1,18 @@
+.search-form {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  width: 35%;
+  margin: 25px 0px 15px 30px;
+}
+
+.search-input {
+  border-radius: 15px;
+  width: 20rem;
+  height: 1.5rem;
+}
+
+.search-by {
+  color: black;
+  padding-right: 0.5rem;
+}
