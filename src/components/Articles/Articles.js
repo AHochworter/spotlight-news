@@ -3,6 +3,7 @@ import './Articles.css';
 import Card from '../Card/Card';
 import { Link } from 'react-router-dom';
 import Form from '../Form/Form';
+import PropTypes from 'prop-types';
 
 function Articles({ articles }) {
   const [search, setSearch] = useState('');
@@ -54,3 +55,10 @@ function Articles({ articles }) {
 }
 
 export default Articles;
+
+Articles.propTypes = {
+  sourceName: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+};

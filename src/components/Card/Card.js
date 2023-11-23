@@ -24,6 +24,7 @@ function Card({ sourceName, title, urlToImage }) {
 export default Card;
 
 Card.propTypes = {
-  title: PropTypes.string.isRequired,
-  image: PropTypes.string,
+  sourceName: PropTypes.string,
+  title: PropTypes.string,
+  urlToImage: PropTypes.string,
 };
