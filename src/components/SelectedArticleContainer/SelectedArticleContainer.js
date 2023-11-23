@@ -31,23 +31,25 @@ function SelectedArticleContainer({ articles }) {
   }, [title, articles]);
 
   return (
-    <div className="selected-article-container">
-      {selectedArticleError ? (
-        <ErrorComponent
-          error={selectedArticleError}
-          message="We're sorry, we're experiencing a server error. Please try again later"
-        />
-      ) : selectedArticle ? (
-        <SelectedArticleCard
-          title={selectedArticle.title}
-          description={selectedArticle.description}
-          urlToImage={selectedArticle.urlToImage}
-          publishedAt={selectedArticle.publishedAt}
-          url={selectedArticle.url}
-        />
-      ) : (
-        <p>Loading...</p>
-      )}
+    <div className="selected-article-view">
+      <div className="selected-article-container">
+        {selectedArticleError ? (
+          <ErrorComponent
+            error={selectedArticleError}
+            message="We're sorry, we're experiencing a server error. Please try again later"
+          />
+        ) : selectedArticle ? (
+          <SelectedArticleCard
+            title={selectedArticle.title}
+            description={selectedArticle.description}
+            urlToImage={selectedArticle.urlToImage}
+            publishedAt={selectedArticle.publishedAt}
+            url={selectedArticle.url}
+          />
+        ) : (
+          <p>Loading...</p>
+        )}
+      </div>
     </div>
   );
 }

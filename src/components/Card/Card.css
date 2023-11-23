@@ -1,4 +1,5 @@
 .card-container {
+  background-color: whitesmoke;
   width: auto;
   display: flex;
   flex-direction: column;

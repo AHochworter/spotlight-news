@@ -13,18 +13,16 @@ function Form({ onSearchChange }) {
 
   return (
     <div className="search-form">
-      <div className="search-container">
-        <label className="search-by" htmlFor="search-by">
-          Search:
-        </label>
-        <input
-          className="search-input"
-          type="text"
-          placeholder="SEARCH..."
-          value={search}
-          onChange={handleChange}
-        />
-      </div>
+      <label className="search-by" htmlFor="search-by">
+        Search Titles:
+      </label>
+      <input
+        className="search-input"
+        type="text"
+        placeholder="SEARCH..."
+        value={search}
+        onChange={handleChange}
+      />
     </div>
   );
 }

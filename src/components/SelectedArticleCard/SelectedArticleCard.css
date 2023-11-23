@@ -2,6 +2,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 80%;
   width: 75%;
@@ -9,8 +10,10 @@
 }
 
 .selected-article {
+  display: flex;
+  align-items: center;
   background-color: whitesmoke;
-
+  border-radius: 30px;
   display: flex;
   height: 80%;
   width: 90%;
