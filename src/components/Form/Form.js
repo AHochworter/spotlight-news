@@ -30,6 +30,5 @@ function Form({ onSearchChange }) {
 export default Form;
 
 Form.propTypes = {
-  search: PropTypes.string,
   onSearchChange: PropTypes.func,
 };

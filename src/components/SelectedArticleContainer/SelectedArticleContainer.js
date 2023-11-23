@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import './SelectedArticleContainer.css';
 import SelectedArticleCard from '../SelectedArticleCard/SelectedArticleCard';
 import ErrorComponent from '../ErrorComponent/ErrorComponent';
+import PropTypes from 'prop-types';
 
 function SelectedArticleContainer({ articles }) {
   const [selectedArticle, setSelectedArticle] = useState(null);
@@ -10,7 +11,7 @@ function SelectedArticleContainer({ articles }) {
   const { title } = useParams();
 
   useEffect(() => {
-    // Using a separate function to handle article finding logic
+    // function to handle article finding logic
     const findArticle = async () => {
       try {
         const foundArticle = articles.find(article => article.title === title);
@@ -55,3 +56,15 @@ function SelectedArticleContainer({ articles }) {
 }
 
 export default SelectedArticleContainer;
+
+SelectedArticleContainer.propTypes = {
+  articles: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string,
+      urlToImage: PropTypes.string,
+      publishedAt: PropTypes.string,
+      url: PropTypes.string,
+    })
+  ).isRequired,
+};

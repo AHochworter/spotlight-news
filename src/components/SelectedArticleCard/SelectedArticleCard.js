@@ -1,4 +1,5 @@
 import './SelectedArticleCard.css';
+import PropTypes from 'prop-types';
 
 function SelectedArticleCard({
   title,
@@ -46,3 +47,11 @@ function SelectedArticleCard({
 }
 
 export default SelectedArticleCard;
+
+SelectedArticleCard.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  urlToImage: PropTypes.string,
+  publishedAt: PropTypes.string,
+  url: PropTypes.string,
+};
