@@ -15,6 +15,8 @@ function App() {
   useEffect(() => {
     getArticles()
       .then(data => {
+        console.log('Received data', data);
+
         const articlesWithImage = data.articles.filter(
           article => article.urlToImage
         );
