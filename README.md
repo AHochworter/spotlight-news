@@ -6,14 +6,32 @@
 
 </div>
 
-## Abstract
-Spotlight News is an interactive and immersive app designed to provide a user friendly interface to explore today's top news headlines. This simple, easy to assimilate platform allows users to quickly skim today's top stories. Each artcile is presented in a visually rich and intuitive interface, making navigating today's news both enjoyable and easy.
+## 📝 Abstract
+Spotlight News is an innovative app that revolutionizes the way users interact with current news headlines. Designed with a user-friendly interface, it offers a streamlined and accessible platform for users to engage with the day's most important stories. The app showcases news articles in a visually appealing and intuitive layout, enabling users to easily navigate and quickly assimilate information from today's top news sources.
 
-Upon selecting an article, users are taken to a detailed page that provides a brief description, the date published and a link to the full article. This feature allows a user to dive deeper into the topic if they find it of interest.
+The app enhances user engagement by providing a detailed page for each news article. This page includes a concise summary, the publication date, and a direct link to the full article. This feature caters to users who wish to delve deeper into topics that pique their interest, offering a more in-depth exploration of the news story. Spotlight News stands out for its blend of simplicity, visual richness, and interactivity, making staying informed both convenient and enjoyable.
 
-### Contributors
+### 👩🏻 Contributors
 
 - [Ann Hochworter](https://linkedin.com/in/AHochworter)
+
+### 📋 Installation Instructions
+The Spotlight News appliation is not deployed due to the NewsAPI used for this project.  The NewsAPI only allows use from localhost with a free developer plan. 
+
+
+```
+# Clone this repo to your local machine by running:
+git clone git@github.com:AHochworter/spotlight-news.git
+
+# Cd into the root directory 
+cd spotlight-news
+
+# Install dependencies 
+npm install
+
+# Run the start script
+npm start
+```
 
 
 ### Tech Stack
@@ -34,7 +52,7 @@ Upon selecting an article, users are taken to a detailed page that provides a br
 ### Preview & Demo Clips
 <details>
 <summary>
-Demo Clips
+🎥 Demo Clips
 </summary>
 <div align="center"> 
   
@@ -49,7 +67,7 @@ Search
 
 <details>
 <summary>
-More Images
+📸 Screenshots
 </summary> 
 
 <div align="center">
