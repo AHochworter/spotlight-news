@@ -22,3 +22,27 @@ a:active {
   color: inherit;
   text-decoration: inherit;
 }
+
+@media screen and (max-width: 1080px) {
+  .article-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .article-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .character-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

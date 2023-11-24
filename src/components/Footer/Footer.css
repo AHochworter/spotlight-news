@@ -12,6 +12,7 @@
   align-items: flex-start;
   width: 25%;
   color: #ffffff;
+  background: black;
 }
 
 .title-logo,
@@ -73,17 +74,20 @@ p {
     justify-content: flex-start;
     align-items: center;
     margin-top: 115px;
+    background: black;
   }
 
   .title-block,
   .linkedin-block,
   .github-block {
     align-items: center;
-    width: 80%;
+    width: 100%;
     text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    background: black;
   }
+
   .title-icon {
     justify-content: center;
     align-items: center;
