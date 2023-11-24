@@ -24,7 +24,7 @@ function App() {
       })
 
       .catch(error => {
-        setError('Error fetching articles. Please try again later.');
+        setError('Error fetching articles.');
       });
   }, []);
 

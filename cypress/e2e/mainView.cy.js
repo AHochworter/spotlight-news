@@ -46,4 +46,12 @@ describe('should intercept GET and load main page', () => {
       .invoke('attr', 'href')
       .should('eq', 'https://github.com/AHochworter');
   });
+
+  it('should allow a user to search for keywords in the title', () => {
+    cy.get("input[name='search-input']")
+      .type('George')
+      .should('have.value', 'George');
+    cy.get('.article-cards').should('have.length', 1);
+    cy.get('.title').should('contain', 'George Santos');
+  });
 });

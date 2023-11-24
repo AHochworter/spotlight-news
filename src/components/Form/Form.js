@@ -17,6 +17,7 @@ function Form({ onSearchChange }) {
         Search Titles:
       </label>
       <input
+        name="search-input"
         className="search-input"
         type="text"
         placeholder="SEARCH..."
