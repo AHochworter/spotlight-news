@@ -56,7 +56,7 @@ npm start
 </summary>
 <div align="center"> 
   
- ![spotlight-news 01](https://github.com/AHochworter/spotlight-news/assets/125393235/56c4ec35-44e8-44d7-9752-8e35b99dc061)
+![spotlight-news 01](https://github.com/AHochworter/spotlight-news/assets/125393235/56c4ec35-44e8-44d7-9752-8e35b99dc061)
 Home Page
 
 ![spotlight-news 02](https://github.com/AHochworter/spotlight-news/assets/125393235/f7469301-abf6-4a2e-85f1-d0b726b320db)
