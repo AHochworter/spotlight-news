@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spotlight News
+![Screenshot 2023-11-24 at 11 49 28 AM](https://github.com/AHochworter/spotlight-news/assets/125393235/d775f915-7c67-49bf-a257-da767f76b997)
 
-## Available Scripts
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## Abstract
+Spotlight News is an interactive and immersive app designed to provide a user friendly interface to explore today's top news headlines. This simple, easy to assimilate platform allows users to quickly skim today's top stories. Each artcile is presented in a visually rich and intuitive interface, making navigating today's news both enjoyable and easy.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Upon selecting an article, users are taken to a detailed page that provides a brief description, the date published and a link to the full article. This feature allows a user to dive deeper into the topic if they find it of interest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Contributors
 
-### `npm test`
+- [Ann Hochworter](https://linkedin.com/in/AHochworter)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Preview & Demo Clips
+<details>
+<summary>
+Demo Clips
+</summary>
+<div align="center"> 
+  
+ ![spotlight-news 01](https://github.com/AHochworter/spotlight-news/assets/125393235/56c4ec35-44e8-44d7-9752-8e35b99dc061)
+Home Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![spotlight-news 02](https://github.com/AHochworter/spotlight-news/assets/125393235/f7469301-abf6-4a2e-85f1-d0b726b320db)
+Search
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</div>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>
+More Images
+</summary> 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<div align="center">
 
-## Learn More
+![Screenshot 2023-11-24 at 11 49 28 AM](https://github.com/AHochworter/spotlight-news/assets/125393235/8c5c8440-ed3e-409c-846a-3f267785f71b)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 2023-11-24 at 12 00 58 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/ba25e44a-96b6-4a87-af2a-9d92b31172fc)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</details>
 
-### Analyzing the Bundle Size
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Goals
+```
+- Apply object-oriented programming (OOP) principles as the foundation for both the application's architecture and codebase
+- Work with an external API to receive data
+- Create a multi-page UX using Router
+- Design a modern, user-friendly and responsive website
+- Maintain well-structured code with minimal redundancy
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### User Stories
+```
+Users should be able to:
+- Visit the app, today's top US headlines should be displayed
+- Click on an article, and see a brief description
+  - As well as a link to the full article that opens in a new tab 
+- Return to the main view of all articles
+- Be able to searh the articles by keyword in the title
+- See errors if there are server errors
+```
