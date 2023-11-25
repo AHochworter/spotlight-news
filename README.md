@@ -66,6 +66,18 @@ npm start
 
 <details>
 <summary>
+🖼️ Project Board
+</summary>
+<div align="center"> 
+  
+![Screenshot 2023-11-25 at 3 35 48 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/373d5d41-f488-4384-9cd4-23b19bad5b33)
+
+
+</div>
+</details>
+
+<details>
+<summary>
 🎥 Demo Clips
 </summary>
 <div align="center"> 
