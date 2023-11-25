@@ -35,6 +35,7 @@ function Articles({ articles }) {
           title={article.title}
           description={fullDescription}
           urlToImage={article.urlToImage}
+          publishedAt={article.publishedAt}
         />
       </Link>
     );
