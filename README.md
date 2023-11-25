@@ -48,8 +48,22 @@ npm start
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
-
 ### Preview & Demo Clips
+<details>
+<summary>
+🖼️ Wireframe
+</summary>
+<div align="center"> 
+  
+ ![Screenshot 2023-11-25 at 3 35 19 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/c7b9c555-8214-4473-82ab-60988a40adf0)
+
+
+![Screenshot 2023-11-25 at 3 35 48 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/373d5d41-f488-4384-9cd4-23b19bad5b33)
+
+
+</div>
+</details>
+
 <details>
 <summary>
 🎥 Demo Clips
