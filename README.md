@@ -104,6 +104,9 @@ Search
 
 ![Screenshot 2023-11-24 at 12 00 58 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/ba25e44a-96b6-4a87-af2a-9d92b31172fc)
 
+![Screenshot 2023-11-25 at 4 17 08 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/49ea4a20-befe-43f8-a3e6-e23c1c061823)
+
+
 
 </details>
 
