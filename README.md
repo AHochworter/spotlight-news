@@ -109,6 +109,64 @@ Search
 
 </div>
 
+<details>
+<summary>
+🤔 Code Snippets
+</summary>
+<div> 
+  
+```
+  useEffect(() => {
+    getArticles()
+      .then(data => {
+        console.log('Received data', data);
+
+        const articlesWithImage = data.articles.filter(
+          article => article.urlToImage
+        );
+        setArticles(articlesWithImage);
+      })
+
+      .catch(error => {
+        setError('Error fetching articles.');
+      });
+  }, []);
+```
+The `const articlesWithImage` is filtering the newsAPI data to include only the articles with an image.
+  - I noticed some of the articles are missing information, a simple filter to include only those with an image appears to have eliminated those with missing details.
+
+```
+function Form({ onSearchChange }) {
+  const [search, setSearch] = useState('');
+
+  const handleChange = event => {
+    setSearch(event.target.value);
+    onSearchChange(event.target.value);
+  };
+
+  return (
+    <div className="search-form">
+      <label className="search-by" htmlFor="search-by">
+        Search Titles:
+      </label>
+      <input
+        name="search-input"
+        className="search-input"
+        type="text"
+        placeholder="SEARCH..."
+        value={search}
+        onChange={handleChange}
+      />
+    </div>
+  );
+}
+```
+I placed the controlled form on the main articles page.  The input style on the form is set to text and gives the user a place to type a keyword.
+  - As the user types the artilces will filter in the view below in response to each letter entered.
+</div>
+</details>
+
+
 ### Goals
 ```
 - Apply object-oriented programming (OOP) principles as the foundation for both the application's architecture and codebase
