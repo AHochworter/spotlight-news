@@ -1,7 +1,13 @@
 import './Card.css';
 import PropTypes from 'prop-types';
 
-function Card({ sourceName, title, urlToImage }) {
+function Card({ sourceName, title, urlToImage, publishedAt }) {
+  // Format the date -> help from Chat-GPT
+  const formatDate = dateString => {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' }; // Example format: November 21, 2023
+    return new Date(dateString).toLocaleDateString(undefined, options);
+  };
+
   return (
     <div className="card-container">
       <div className="card" key={title}>
@@ -15,6 +21,7 @@ function Card({ sourceName, title, urlToImage }) {
         </div>
         <div className="info-container">
           <h3 className="title">{title}</h3>
+          <p className="printed-on">{formatDate(publishedAt)}</p>
         </div>
       </div>
     </div>
