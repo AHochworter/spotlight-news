@@ -55,7 +55,7 @@ npm start
 </summary>
 <div align="center"> 
   
- ![Screenshot 2023-11-25 at 3 35 19 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/c7b9c555-8214-4473-82ab-60988a40adf0)
+![Screenshot 2023-11-25 at 3 35 19 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/c7b9c555-8214-4473-82ab-60988a40adf0)
 
 
 ![Screenshot 2023-11-25 at 3 35 48 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/373d5d41-f488-4384-9cd4-23b19bad5b33)
@@ -66,11 +66,11 @@ npm start
 
 <details>
 <summary>
-🖼️ Project Board
+📈 Project Board
 </summary>
-<div align="center"> 
-  
-![Screenshot 2023-11-25 at 3 35 48 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/373d5d41-f488-4384-9cd4-23b19bad5b33)
+<div align="center">   
+
+![Screenshot 2023-11-25 at 3 50 04 PM](https://github.com/AHochworter/spotlight-news/assets/125393235/733427e1-95c2-4207-a2a9-b25478017249)
 
 
 </div>
